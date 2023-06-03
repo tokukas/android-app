@@ -1,3 +1,94 @@
 <resources>
     <string name="app_name">Tokukas</string>
+
+    <string-array name="product_names">
+        <item>Modul English Grammar</item>
+        <item>Kalkulus Edisi Kesembilan</item>
+        <item>Bedah Konsep Inti UTBK-SBMPTN SOSHUM 2021</item>
+        <item>Mandiri PPKn SMA Kelas 12</item>
+        <item>Mandiri Geografi Jilid 1 SMA Kelas 10</item>
+        <item>Mandiri Agama Islam SMA Kelas 12</item>
+        <item>Mandiri Bahasa Indonesia SMA Kelas 12</item>
+        <item>Mandiri Sejarah Indonesia SMA Kelas 12</item>
+        <item>Sejarah Mekah: Dulu dan Kini</item>
+        <item>Kemahiran Berbahasa Indonesia untuk Perguruan Tinggi</item>
+    </string-array>
+
+    <string-array name="product_publishers">
+        <item>Penerbit Cmedia</item>
+        <item>Penerbit Erlangga</item>
+        <item>Magenta Media</item>
+        <item>Penerbit Erlangga</item>
+        <item>Penerbit Erlangga</item>
+        <item>Penerbit Erlangga</item>
+        <item>Penerbit Erlangga</item>
+        <item>Penerbit Erlangga</item>
+        <item>Al-Rasheed Printers</item>
+        <item>Bumi Aksara</item>
+    </string-array>
+
+    <string-array name="product_descriptions">
+        <item>Modul English Grammar ini berisi materi-materi grammar yang sering keluar di tes TOEFL, IELTS, dan TOEIC. Modul ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Kalkulus Edisi Kesembilan ini berisi materi-materi kalkulus yang sering keluar di tes SBMPTN. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Bedah Konsep Inti UTBK-SBMPTN SOSHUM 2021 ini berisi materi-materi yang sering keluar di tes SBMPTN. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Mandiri PPKn SMA Kelas 12 ini berisi materi-materi PPKn untuk kelas 12 SMA. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Mandiri Geografi Jilid 1 SMA Kelas 10 ini berisi materi-materi Geografi untuk kelas 12 SMA. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Mandiri Agama Islam SMA Kelas 12 ini berisi materi-materi Agama Islam untuk kelas 12 SMA. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Mandiri Bahasa Indonesia SMA Kelas 12 ini berisi materi-materi Bahasa Indonesia untuk kelas 12 SMA. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Mandiri Sejarah Indonesia SMA Kelas 12 ini berisi materi-materi Sejarah Indonesia untuk kelas 12 SMA. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
+        <item>Sejarah Mekah: Dulu dan Kini ini berisi sejarah mengenai Kabah dan tempat-tempat terkenal di Kota Mekah.</item>
+        <item>Kemahiran Berbahasa Indonesia untuk Perguruan Tinggi ini berisi materi-materi Bahasa Indonesia untuk mahasiswa.</item>
+    </string-array>
+
+    <integer-array name="product_years">
+        <item>2018</item>
+        <item>2010</item>
+        <item>2020</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2004</item>
+        <item>2019</item>
+    </integer-array>
+
+    <integer-array name="product_prices">
+        <item>25000</item>
+        <item>50000</item>
+        <item>50000</item>
+        <item>25000</item>
+        <item>25000</item>
+        <item>25000</item>
+        <item>50000</item>
+        <item>50000</item>
+        <item>44500</item>
+        <item>34000</item>
+    </integer-array>
+
+    <integer-array name="product_stocks">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>1</item>
+        <item>6</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="product_photos">
+        <item>https://tokukas.site/images/01gyy4vy9d1y7bhtcewp1ye580?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy4ywfvkyhpg8mfv2p622vy?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy54717a53ybvnygcsa7ngh?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy555psbbsqpn0w4d4cbjre?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy55nympw779cep57x0ea4f?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy567s5n9cbnf2fheg3kc48?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy57304hya7z9f9xd86821q?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy57wd3agbv0dpajafpnvny?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01h1zs3f7kzxqjb0kzatew0bdn?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01h1zspa4rkmcerz4x5hvkrgkh?width=200&amp;type=webp</item>
+    </string-array>
 </resources>
