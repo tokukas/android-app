@@ -3,6 +3,8 @@ package com.example.tokukas
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.tokukas.databinding.ActivityMainBinding
@@ -67,5 +69,20 @@ class MainActivity : AppCompatActivity() {
         val detailBookIntent = Intent(this@MainActivity, DetailBookActivity::class.java)
         detailBookIntent.putExtra(DetailBookActivity.EXTRA_BOOK, book)
         startActivity(detailBookIntent)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.actionAbout -> {
+                val aboutIntent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(aboutIntent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
