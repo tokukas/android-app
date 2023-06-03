@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">Tokukas</string>
 
-    <string-array name="product_names">
+    <string name="book_title">Book Title</string>
+    <string name="book_publisher">Book Publisher</string>
+    <string name="book_description">Book Description</string>
+    <string name="book_year">2023</string>
+    <string name="book_price">Rp50.000</string>
+    <string name="book_stock">1</string>
+
+    <string-array name="book_titles">
         <item>Modul English Grammar</item>
         <item>Kalkulus Edisi Kesembilan</item>
         <item>Bedah Konsep Inti UTBK-SBMPTN SOSHUM 2021</item>
@@ -14,7 +21,7 @@
         <item>Kemahiran Berbahasa Indonesia untuk Perguruan Tinggi</item>
     </string-array>
 
-    <string-array name="product_publishers">
+    <string-array name="book_publishers">
         <item>Penerbit Cmedia</item>
         <item>Penerbit Erlangga</item>
         <item>Magenta Media</item>
@@ -27,7 +34,7 @@
         <item>Bumi Aksara</item>
     </string-array>
 
-    <string-array name="product_descriptions">
+    <string-array name="book_descriptions">
         <item>Modul English Grammar ini berisi materi-materi grammar yang sering keluar di tes TOEFL, IELTS, dan TOEIC. Modul ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
         <item>Kalkulus Edisi Kesembilan ini berisi materi-materi kalkulus yang sering keluar di tes SBMPTN. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
         <item>Bedah Konsep Inti UTBK-SBMPTN SOSHUM 2021 ini berisi materi-materi yang sering keluar di tes SBMPTN. Buku ini juga dilengkapi dengan contoh soal dan pembahasan.</item>
@@ -40,7 +47,7 @@
         <item>Kemahiran Berbahasa Indonesia untuk Perguruan Tinggi ini berisi materi-materi Bahasa Indonesia untuk mahasiswa.</item>
     </string-array>
 
-    <integer-array name="product_years">
+    <integer-array name="book_years">
         <item>2018</item>
         <item>2010</item>
         <item>2020</item>
@@ -53,7 +60,7 @@
         <item>2019</item>
     </integer-array>
 
-    <integer-array name="product_prices">
+    <integer-array name="book_prices">
         <item>25000</item>
         <item>50000</item>
         <item>50000</item>
@@ -66,7 +73,7 @@
         <item>34000</item>
     </integer-array>
 
-    <integer-array name="product_stocks">
+    <integer-array name="book_stocks">
         <item>3</item>
         <item>1</item>
         <item>2</item>
@@ -79,7 +86,7 @@
         <item>1</item>
     </integer-array>
 
-    <string-array name="product_photos">
+    <string-array name="book_photos">
         <item>https://tokukas.site/images/01gyy4vy9d1y7bhtcewp1ye580?width=200&amp;type=webp</item>
         <item>https://tokukas.site/images/01gyy4ywfvkyhpg8mfv2p622vy?width=200&amp;type=webp</item>
         <item>https://tokukas.site/images/01gyy54717a53ybvnygcsa7ngh?width=200&amp;type=webp</item>
