@@ -92,15 +92,15 @@
     </integer-array>
 
     <string-array name="book_photos">
-        <item>https://tokukas.site/images/01gyy4vy9d1y7bhtcewp1ye580?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01gyy4ywfvkyhpg8mfv2p622vy?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01gyy54717a53ybvnygcsa7ngh?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01gyy555psbbsqpn0w4d4cbjre?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01gyy55nympw779cep57x0ea4f?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01gyy567s5n9cbnf2fheg3kc48?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01gyy57304hya7z9f9xd86821q?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01gyy57wd3agbv0dpajafpnvny?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01h1zs3f7kzxqjb0kzatew0bdn?width=200&amp;type=webp</item>
-        <item>https://tokukas.site/images/01h1zspa4rkmcerz4x5hvkrgkh?width=200&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy4vy9d1y7bhtcewp1ye580?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy4ywfvkyhpg8mfv2p622vy?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy54717a53ybvnygcsa7ngh?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy555psbbsqpn0w4d4cbjre?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy55nympw779cep57x0ea4f?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy567s5n9cbnf2fheg3kc48?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy57304hya7z9f9xd86821q?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01gyy57wd3agbv0dpajafpnvny?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01h1zs3f7kzxqjb0kzatew0bdn?width=400&amp;type=webp</item>
+        <item>https://tokukas.site/images/01h1zspa4rkmcerz4x5hvkrgkh?width=400&amp;type=webp</item>
     </string-array>
 </resources>
