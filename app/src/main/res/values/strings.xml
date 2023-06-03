@@ -13,6 +13,8 @@
     <string name="book_label_stock">stock left</string>
     <string name="book_label_detail">Book Detail</string>
     <string name="label_about">About</string>
+    <string name="my_name">Fityandhiya Islam Nugroho</string>
+    <string name="my_email">fityannugroho@gmail.com</string>
 
     <string-array name="book_titles">
         <item>Modul English Grammar</item>
