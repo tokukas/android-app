@@ -1,12 +1,17 @@
 <resources>
     <string name="app_name">Tokukas</string>
 
-    <string name="book_title">Book Title</string>
-    <string name="book_publisher">Book Publisher</string>
-    <string name="book_description">Book Description</string>
+    <string name="book_title">My Book</string>
+    <string name="book_publisher">The Publisher Inc.</string>
+    <string name="book_description">This is a long book description.</string>
     <string name="book_year">2023</string>
     <string name="book_price">Rp50.000</string>
     <string name="book_stock">1</string>
+    <string name="book_label_publisher">Publisher</string>
+    <string name="book_label_description">Book Description</string>
+    <string name="book_label_year">Year Published</string>
+    <string name="book_label_stock">stock left</string>
+    <string name="book_label_detail">Book Detail</string>
 
     <string-array name="book_titles">
         <item>Modul English Grammar</item>

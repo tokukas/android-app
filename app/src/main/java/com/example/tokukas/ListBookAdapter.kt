@@ -6,8 +6,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.tokukas.databinding.BookItemBinding
 
-class ListBookAdapter(private val books: List<Book>) :
-    RecyclerView.Adapter<ListBookAdapter.ViewHolder>() {
+class ListBookAdapter(
+    private val books: List<Book>,
+    private val onClick: (Book) -> Unit = {}
+) : RecyclerView.Adapter<ListBookAdapter.ViewHolder>() {
     class ViewHolder(val binding: BookItemBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -23,6 +25,10 @@ class ListBookAdapter(private val books: List<Book>) :
         holder.binding.imgBookPhoto.contentDescription = book.title
         holder.binding.tvBookTitle.text = book.title
         holder.binding.tvBookPrice.text = "Rp" + book.price.toString()
+
+        holder.itemView.setOnClickListener {
+            onClick(book)
+        }
     }
 
     override fun getItemCount(): Int = books.size

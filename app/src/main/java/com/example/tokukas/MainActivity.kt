@@ -1,5 +1,6 @@
 package com.example.tokukas
 
+import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -54,7 +55,17 @@ class MainActivity : AppCompatActivity() {
         } else {
             binding.rvBooks.layoutManager = GridLayoutManager(this, 2)
         }
-        val listBookAdapter = ListBookAdapter(books)
+
+        val listBookAdapter = ListBookAdapter(books) { book ->
+            goToDetailBookActivity(book)
+        }
+
         binding.rvBooks.adapter = listBookAdapter
+    }
+
+    private fun goToDetailBookActivity(book: Book) {
+        val detailBookIntent = Intent(this@MainActivity, DetailBookActivity::class.java)
+        detailBookIntent.putExtra(DetailBookActivity.EXTRA_BOOK, book)
+        startActivity(detailBookIntent)
     }
 }

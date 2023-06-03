@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailBookActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:id="@+id/imgBookPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/book_title"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_book_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvBookPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/book_price"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgBookPhoto" />
+
+        <TextView
+            android:id="@+id/tvBookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/book_title"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tvBookPrice"
+            app:layout_constraintTop_toBottomOf="@id/tvBookPrice" />
+
+        <TextView
+            android:id="@+id/tvBookStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/book_stock"
+            app:layout_constraintStart_toStartOf="@id/tvBookPrice"
+            app:layout_constraintTop_toBottomOf="@id/tvBookTitle" />
+
+        <TextView
+            android:id="@+id/tvBookLabelStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/book_label_stock"
+            app:layout_constraintStart_toEndOf="@id/tvBookStock"
+            app:layout_constraintTop_toTopOf="@id/tvBookStock" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvBookStock" />
+
+        <TextView
+            android:id="@+id/tvBookLabelDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/book_label_detail"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvBookPrice"
+            app:layout_constraintTop_toBottomOf="@id/divider" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="160dp" />
+
+        <TextView
+            android:id="@+id/tvBookLabelPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/book_label_publisher"
+            app:layout_constraintStart_toStartOf="@id/tvBookPrice"
+            app:layout_constraintTop_toBottomOf="@id/tvBookLabelDetail" />
+
+        <TextView
+            android:id="@+id/tvBookPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/book_publisher"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/tvBookLabelPublisher"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/guideline"
+            app:layout_constraintTop_toTopOf="@id/tvBookLabelPublisher" />
+
+        <TextView
+            android:id="@+id/tvBookLabelYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/book_label_year"
+            app:layout_constraintStart_toStartOf="@id/tvBookPrice"
+            app:layout_constraintTop_toBottomOf="@id/tvBookLabelPublisher" />
+
+        <TextView
+            android:id="@+id/tvBookYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/book_year"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/tvBookLabelYear"
+            app:layout_constraintStart_toStartOf="@id/guideline"
+            app:layout_constraintTop_toTopOf="@id/tvBookLabelYear" />
+
+        <TextView
+            android:id="@+id/tvBookLabelDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/book_label_description"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/tvBookPrice"
+            app:layout_constraintTop_toBottomOf="@id/tvBookLabelYear" />
+
+        <TextView
+            android:id="@+id/tvBookDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/book_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tvBookLabelDescription"
+            app:layout_constraintTop_toBottomOf="@id/tvBookLabelDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
