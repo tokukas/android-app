@@ -21,6 +21,8 @@ class DetailBookActivity : AppCompatActivity() {
         binding = ActivityDetailBookBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.title = "Book"
+
         val book = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             intent.getParcelableExtra(EXTRA_BOOK, Book::class.java)
         } else {
@@ -29,15 +31,7 @@ class DetailBookActivity : AppCompatActivity() {
         }
 
         if (book != null) {
-            Glide.with(this).load(book.photo).placeholder(R.drawable.default_book_photo)
-                .into(binding.imgBookPhoto)
-            binding.imgBookPhoto.contentDescription = book.title
-            binding.tvBookTitle.text = book.title
-            binding.tvBookPrice.text = "Rp" + book.price.toString()
-            binding.tvBookStock.text = book.stock.toString()
-            binding.tvBookPublisher.text = book.publisher
-            binding.tvBookYear.text = book.year.toString()
-            binding.tvBookDescription.text = book.description
+            bindBook(book)
         }
     }
 
@@ -60,5 +54,19 @@ class DetailBookActivity : AppCompatActivity() {
             }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun bindBook(book: Book) {
+        with(binding) {
+            Glide.with(this@DetailBookActivity).load(book.photo).placeholder(R.drawable.default_book_photo)
+                .into(imgBookPhoto)
+            imgBookPhoto.contentDescription = book.title
+            tvBookTitle.text = book.title
+            tvBookPrice.text = "Rp" + book.price.toString()
+            tvBookStock.text = book.stock.toString()
+            tvBookPublisher.text = book.publisher
+            tvBookYear.text = book.year.toString()
+            tvBookDescription.text = book.description
+        }
     }
 }
