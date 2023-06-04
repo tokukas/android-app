@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.tokukas.databinding.ActivityMainBinding
 
@@ -14,6 +15,9 @@ class MainActivity : AppCompatActivity() {
     private var books = ArrayList<Book>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Handle ths splash screen
+        installSplashScreen()
+
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
