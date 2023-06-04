@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/actionAbout"
-        android:icon="@drawable/ic_baseline_person_24_white"
-        android:title="@string/label_about"
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_baseline_share_24_white"
+        android:title="@string/label_share"
         app:showAsAction="ifRoom" />
 </menu>
