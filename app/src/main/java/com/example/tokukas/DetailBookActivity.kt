@@ -58,7 +58,8 @@ class DetailBookActivity : AppCompatActivity() {
 
     private fun bindBook(book: Book) {
         with(binding) {
-            Glide.with(this@DetailBookActivity).load(book.photo).placeholder(R.drawable.default_book_photo)
+            Glide.with(this@DetailBookActivity).load(book.photo)
+                .placeholder(R.drawable.default_book_photo)
                 .into(imgBookPhoto)
             imgBookPhoto.contentDescription = book.title
             tvBookTitle.text = book.title
