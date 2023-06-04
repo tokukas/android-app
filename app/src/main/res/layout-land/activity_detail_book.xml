@@ -74,7 +74,6 @@
             app:layout_constraintStart_toStartOf="@+id/tvBookStock"
             app:layout_constraintTop_toBottomOf="@+id/tvBookStock" />
 
-
         <com.google.android.material.divider.MaterialDivider
             android:id="@+id/divider"
             android:layout_width="match_parent"
@@ -166,6 +165,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/tvBookLabelDescription"
             app:layout_constraintTop_toBottomOf="@id/tvBookLabelDescription" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
